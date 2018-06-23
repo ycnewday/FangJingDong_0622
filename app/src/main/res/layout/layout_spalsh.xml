@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/splash_pic"
+        android:scaleType="fitXY"
+        android:src="@mipmap/b1i"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash_time"
+        android:background="@drawable/spash_time_shape"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:text="立即跳转"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splash_tiao"
+        android:background="@drawable/spash_time_shape"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
